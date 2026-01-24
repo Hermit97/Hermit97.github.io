@@ -1,26 +1,26 @@
 body {
     background-color: #000000;
-    /* The exact color you found */
+    /* The exact mint/seafoam color from your inspect tool */
     color: #93ffd7; 
     
-    /* The exact font stack and size from your inspect tool */
-    font-family: "gohu", "Lucida Console", Monaco, monospace;
-    font-size: 14px;
+    /* System font stack: targets Windows (Lucida) and Mac (Monaco) */
+    font-family: "unifont", "Lucida Console", "Monaco", "Consolas", monospace;
     
-    /* line-height 1.0 makes the text very dense/packed */
-    line-height: 1.0;
+    /* Exact specs from your second inspect screenshot */
+    font-size: 16px;
+    line-height: 1;
     
-    /* Centering the content like the screenshot */
+    /* Layout specs to match the centered column */
     max-width: 800px;
-    margin: 40px auto;
+    margin: 50px auto;
     padding: 20px;
-    
-    /* Keeps the pixels sharp */
+
+    /* These make standard fonts look more 'pixelated' and sharp */
     text-rendering: crispEdges;
     -webkit-font-smoothing: none;
 }
 
-/* Matching the red links for the 'hacker' contrast */
+/* Red links for that 'zine' contrast */
 a {
     color: #ff0000;
     text-decoration: none;
@@ -29,4 +29,9 @@ a {
 a:hover {
     background: #93ffd7;
     color: #000;
+}
+
+/* Matches the padding you found in the inspector */
+pre, ul {
+    padding-left: 20px;
 }
