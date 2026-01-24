@@ -1,37 +1,44 @@
 body {
-    background-color: #000000;
-    /* The exact mint/seafoam color from your inspect tool */
-    color: #93ffd7; 
+    background-color: #f0f4f8; /* That light grayish-blue background */
+    color: #333333; /* Dark gray text for readability */
     
-    /* System font stack: targets Windows (Lucida) and Mac (Monaco) */
-    font-family: "unifont", "Lucida Console", "Monaco", "Consolas", monospace;
+    /* The exact font stack from your successful inspection */
+    font-family: "Lucida Console", "Monaco", monospace;
+    font-size: 14px;
+    line-height: 1.4; /* Slightly more space for this 'cleaner' look */
     
-    /* Exact specs from your second inspect screenshot */
-    font-size:12px;
-    line-height: 1;
-    
-    /* Layout specs to match the centered column */
-    max-width: 800px;
-    margin: 50px auto;
-    padding: 20px;
-
-    /* These make standard fonts look more 'pixelated' and sharp */
-    text-rendering: crispEdges;
-    -webkit-font-smoothing: none;
+    max-width: 850px;
+    margin: 40px auto;
+    padding: 30px;
+    border-top: 5px solid #2c3e50; /* Adds a 'top bar' feel like a terminal */
 }
 
-/* Red links for that 'zine' contrast */
+/* Matching the console header style */
+h1, h2 {
+    color: #2c3e50;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 1px solid #d1d9e0;
+    padding-bottom: 5px;
+}
+
+/* Making links look like a modern dashboard */
 a {
-    color: #ff0000;
+    color: #0056b3;
     text-decoration: none;
+    font-weight: bold;
 }
 
 a:hover {
-    background: #93ffd7;
-    color: #000;
+    text-decoration: underline;
+    color: #003d82;
 }
 
-/* Matches the padding you found in the inspector */
-pre, ul {
-    padding-left: 20px;
+/* Style for the 'Code' and 'Command' blocks */
+pre {
+    background: #ffffff;
+    border: 1px solid #d1d9e0;
+    padding: 15px;
+    color: #24292e;
+    overflow-x: auto;
 }
