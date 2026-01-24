@@ -5,7 +5,7 @@ body {
     
     /* Phrack uses a very clean monospace stack */
     font-family: "Lucida Console", "Monaco", "Courier New", Courier, monospace;
-    font-size: 16px; /* Your preferred size */
+    font-size: 12px; /* Your preferred size */
     line-height: 1.5; /* Phrack has more 'breathing room' than tmpout */
     
     /* Wide Phrack-style margins */
