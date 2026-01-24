@@ -1,44 +1,46 @@
+/* Hybrid Console-Zine Style */
 body {
-    background-color: #f0f4f8; /* That light grayish-blue background */
-    color: #333333; /* Dark gray text for readability */
+    background-color: #000000; /* Back to Black */
+    color: #ffffff; /* Pure White text */
     
-    /* The exact font stack from your successful inspection */
+    /* Using the exact font stack from your preferred image */
     font-family: "Lucida Console", "Monaco", monospace;
     font-size: 14px;
-    line-height: 1.4; /* Slightly more space for this 'cleaner' look */
     
-    max-width: 850px;
-    margin: 40px auto;
+    /* line-height 1.4 keeps it readable but professional */
+    line-height: 1.4;
+    
+    /* The 'organized in the middle' layout */
+    max-width: 800px;
+    margin: 50px auto;
     padding: 30px;
-    border-top: 5px solid #2c3e50; /* Adds a 'top bar' feel like a terminal */
+    
+    /* Makes the font look like sharp pixels on the black background */
+    text-rendering: crispEdges;
+    -webkit-font-smoothing: none;
 }
 
-/* Matching the console header style */
-h1, h2 {
-    color: #2c3e50;
-    font-weight: bold;
-    text-transform: uppercase;
-    border-bottom: 1px solid #d1d9e0;
-    padding-bottom: 5px;
-}
-
-/* Making links look like a modern dashboard */
+/* Red links to keep that high-threat aesthetic */
 a {
-    color: #0056b3;
+    color: #ff0000;
     text-decoration: none;
     font-weight: bold;
 }
 
 a:hover {
-    text-decoration: underline;
-    color: #003d82;
+    background: #ffffff;
+    color: #000000;
 }
 
-/* Style for the 'Code' and 'Command' blocks */
-pre {
-    background: #ffffff;
-    border: 1px solid #d1d9e0;
-    padding: 15px;
-    color: #24292e;
-    overflow-x: auto;
+/* Header style with a subtle line like the console image */
+h1, h2, h3 {
+    text-transform: uppercase;
+    border-bottom: 1px solid #333;
+    padding-bottom: 10px;
+    margin-top: 40px;
+}
+
+/* Indented lists to match your padding-left: 20px finding */
+ul, ol, pre {
+    padding-left: 20px;
 }
