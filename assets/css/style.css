@@ -1,46 +1,50 @@
-/* Hybrid Console-Zine Style */
+/* PHRACK-INSPIRED DARK MODE */
 body {
-    background-color: #000000; /* Back to Black */
-    color: #ffffff; /* Pure White text */
+    background-color: #000000;
+    color: #ffffff; /* White text as requested */
     
-    /* Using the exact font stack from your preferred image */
-    font-family: "Lucida Console", "Monaco", monospace;
-    font-size: 14px;
+    /* Phrack uses a very clean monospace stack */
+    font-family: "Lucida Console", "Monaco", "Courier New", Courier, monospace;
+    font-size: 16px; /* Your preferred size */
+    line-height: 1.5; /* Phrack has more 'breathing room' than tmpout */
     
-    /* line-height 1.4 keeps it readable but professional */
-    line-height: 1.4;
+    /* Wide Phrack-style margins */
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 40px;
     
-    /* The 'organized in the middle' layout */
-    max-width: 800px;
-    margin: 50px auto;
-    padding: 30px;
-    
-    /* Makes the font look like sharp pixels on the black background */
+    /* Keeps the font sharp and 'un-smoothed' */
     text-rendering: crispEdges;
     -webkit-font-smoothing: none;
 }
 
-/* Red links to keep that high-threat aesthetic */
+/* Red Links for the High-Contrast Look */
 a {
     color: #ff0000;
     text-decoration: none;
-    font-weight: bold;
+    border-bottom: 1px solid transparent;
 }
 
 a:hover {
-    background: #ffffff;
-    color: #000000;
+    border-bottom: 1px solid #ff0000;
 }
 
-/* Header style with a subtle line like the console image */
+/* Headers: Simple and Clean like a text file */
 h1, h2, h3 {
+    font-size: 18px;
     text-transform: uppercase;
-    border-bottom: 1px solid #333;
-    padding-bottom: 10px;
     margin-top: 40px;
+    border-bottom: 1px solid #333; /* Subtle Phrack separator */
+    padding-bottom: 10px;
 }
 
-/* Indented lists to match your padding-left: 20px finding */
+/* The specific 20px padding you discovered */
 ul, ol, pre {
     padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+/* Bullet points for your research findings */
+li {
+    margin-bottom: 10px;
 }
