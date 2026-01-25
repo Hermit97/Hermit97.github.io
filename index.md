@@ -13,29 +13,29 @@ layout: default
 
 ### // RESEARCH_LOG_STREAM
 
-<div style="height: 250px; overflow-y: scroll; border: 1px solid #333; padding: 15px; background: #0a0a0a; font-family: monospace; font-size: 0.85em; line-height: 1.6;">
+<div style="height: 200px; overflow-y: scroll; border: 1px solid black; padding: 15px; background: #ffffff; font-family: monospace; font-size: 0.9em; color: black; line-height: 1.5;">
 
   <p>
     <strong>[ 0x7E0 ] // 2026-01-24</strong><br>
-    [ STATUS: <span style="color: #00FF00;">COMPLETE</span> ]<br>
+    STATUS: <strong>[ COMPLETE ]</strong><br>
     TARGET: Windows Kernel structures (EPROCESS blocks).<br>
-    RESULT: Successfully mapped process memory for injection detection.
+    TASK: Mapping process memory for injection detection.
   </p>
-  <hr style="border: 0; border-top: 1px solid #222;">
+  <hr style="border: 0; border-top: 1px solid black; margin: 10px 0;">
 
   <p>
     <strong>[ 0x7DE ] // 2026-01-20</strong><br>
-    [ STATUS: <span style="color: #FFA500;">IN_PROGRESS</span> ]<br>
+    STATUS: <strong>[ IN_PROGRESS ]</strong><br>
     TARGET: Dithered malware delivery vectors.<br>
-    GOAL: Reversing 1-bit steganography payloads.
+    TASK: Reversing 1-bit steganography payloads.
   </p>
-  <hr style="border: 0; border-top: 1px solid #222;">
+  <hr style="border: 0; border-top: 1px solid black; margin: 10px 0;">
 
   <p>
     <strong>[ 0x7DB ] // 2026-01-15</strong><br>
-    [ STATUS: <span style="color: #00FF00;">COMPLETE</span> ]<br>
+    STATUS: <strong>[ COMPLETE ]</strong><br>
     TARGET: Unauthorized SMB traffic patterns.<br>
-    RESULT: Created Wireshark filter set for lateral movement detection.
+    TASK: Created Wireshark filter set for lateral movement detection.
   </p>
 
 </div>
