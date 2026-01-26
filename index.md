@@ -13,7 +13,7 @@ layout: default
 
 ### // RESEARCH_LOG_STREAM
 
-<div style="height: 200px; overflow-y: scroll; border: 1px solid black; padding: 15px; background: #ffffff; font-family: monospace; font-size: 0.9em; color: black; line-height: 1.5;">
+<div style="height: 200px; overflow-y: scroll; border: 1px solid black; padding: 15px; background: #ffffff; font-family: monospace; font-size: 1.0em; color: black; line-height: 1.5;">
 
   <p>
     <strong>[ 0x7E0 ] // 2026-01-24</strong><br>
