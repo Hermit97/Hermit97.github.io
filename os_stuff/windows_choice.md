@@ -5,3 +5,5 @@ layout: default
 
 ## // ARCHIVE
 * [WINDOWS_INTERNALS](../research/os/windows/windows_stuff.md)
+* [WINDOWS_INTERNALS](../research/os/windows/windows_stuff.md)
+* [WINDOWS_INTERNALS](../research/os/windows/windows_stuff.md)
