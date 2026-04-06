@@ -10,6 +10,7 @@ layout: default
 * [MALWARE](./malware-list.md)
 * [NETWORKING](./networking-list.md)
 * [OS_INTERNALS](./os-list.md)
+* [SECURITY_CERTS](./certs.md)
 
 ### // RESEARCH_LOG_STREAM
 
